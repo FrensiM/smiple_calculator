@@ -13,7 +13,7 @@ def div(a, b):
         return a / b
 def factorial(a):
     result = 1
-    for i in range(i, a + 1):
+    for i in range(1, a + 1):
         result *= i
     return result
 
@@ -30,7 +30,7 @@ def get_user_choice():
     choice = input("Enter your choice 1-6: ")
     return choice
 def perform_calculator():
-    choice = get_user_choice
+    choice = get_user_choice()
     
     if choice == '1':
         num1 = float(input("Enter first number: "))
